@@ -1,0 +1,9 @@
+/.vagrant
+/config/local.php
+/deployment/ansible
+/logs/*
+!/logs/error.log
+/session
+/tmp
+/Vagrantfile
+/vendor

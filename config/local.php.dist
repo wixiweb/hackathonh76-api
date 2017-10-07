@@ -1,0 +1,13 @@
+<?php
+/**
+ * @package hackathon76api
+ * @author Wixiweb <contact@wixiweb.fr>
+ */
+
+return [
+    'db' => [
+        'dsn' => 'mysql:dbname=;host=',
+        'username' => '',
+        'password' => '',
+    ],
+];

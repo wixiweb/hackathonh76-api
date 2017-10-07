@@ -1,0 +1,13 @@
+{
+    "require": {
+        "zendframework/zend-expressive": "^2.0",
+        "zendframework/zend-expressive-fastroute": "^2.1",
+        "xtreamwayz/pimple-container-interop": "^1.0",
+        "zendframework/zend-expressive-helpers": "^4.1"
+    },
+    "autoload": {
+        "psr-4": {
+            "Api\\": "src/Api/src/"
+        }
+    }
+}
