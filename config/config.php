@@ -12,6 +12,7 @@ if (is_file($configCachePath)) {
 
 $configProviders = [
     ['type' => 'callable', 'target' => function() { return ['version' => file_get_contents('VERSION')]; }],
+    ['type' => 'callable', 'target' => Zend\Db\ConfigProvider::class],
     ['type' => 'callable', 'target' => Api\ConfigProvider::class],
     ['type' => 'file', 'target' => 'config/global.php'],
     ['type' => 'file', 'target' => 'config/local.php'],

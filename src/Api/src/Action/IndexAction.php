@@ -27,7 +27,7 @@ class IndexAction implements MiddlewareInterface
     }
     
     /**
-     * Home page / Authentication page
+     * Home page
      * 
      * {@inheritDoc}
      */ 

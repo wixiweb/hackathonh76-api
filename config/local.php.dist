@@ -6,8 +6,10 @@
 
 return [
     'db' => [
+        'driver' => '',
         'dsn' => 'mysql:dbname=;host=',
         'username' => '',
         'password' => '',
+        'driver_options' => [],
     ],
 ];

@@ -3,7 +3,9 @@
         "zendframework/zend-expressive": "^2.0",
         "zendframework/zend-expressive-fastroute": "^2.1",
         "xtreamwayz/pimple-container-interop": "^1.0",
-        "zendframework/zend-expressive-helpers": "^4.1"
+        "zendframework/zend-expressive-helpers": "^4.1",
+        "zendframework/zend-db": "^2.8",
+        "zendframework/zend-hydrator": "^2.3"
     },
     "autoload": {
         "psr-4": {
